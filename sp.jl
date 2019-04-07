@@ -14,8 +14,3 @@ clock = core.Clock()
 sound = sound.Sound("recording.wav", secs=3.0)
 sound.play()
 core.wait(3.0)
-
-
-# playing
-# sound_pygame.play()
-# core.wait(0.5)

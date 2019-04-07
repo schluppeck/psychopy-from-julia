@@ -1,12 +1,15 @@
 # Psychopy install from within julia
 
+<img src="twitter-card.png" height="200px"/>
+
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr"><a href="https://twitter.com/psychopy?ref_src=twsrc%5Etfw">@psychopy</a> and <a href="https://twitter.com/peircej?ref_src=twsrc%5Etfw">@peircej</a>, fwiw... it&#39;s totally doable to run psychopy code from within <a href="https://twitter.com/JuliaLang?ref_src=twsrc%5Etfw">@julialang</a> via PyCall.jl, which is pretty cool!<br><br>Just had to install psychopy via conda+pip (have some notes on how to get this to work for the correction python version used by PyCall) <a href="https://t.co/aOcHJCYkch">pic.twitter.com/aOcHJCYkch</a></p>&mdash; Denis Schluppeck (@schluppeck) <a href="https://twitter.com/schluppeck/status/1114883361586196480?ref_src=twsrc%5Etfw">April 7, 2019</a></blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<!-- <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> -->
 
 
 Following install instructions from www.psychopy.org, I managed to get some sample applications to run from within ``julia``. NB: at this point this has only been tested for ``code``, under a recent version of ``macOS``, ``julia v"1.1.0"``, and ``PyCall.jl`` compiled for ``python v"3.7.2"`` (not experiments made in ``Builder``). But it's kind of cool that this all works out of the box!
 
-<img src="julia-version.png" width=200px/>
+<img src="julia-version.png" width="40%"/>
 
 ds 2019-04-07
 
